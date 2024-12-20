@@ -208,7 +208,7 @@ public class hello extends javax.swing.JFrame {
     }
      public static String chatBOT(String message) {
         String url = "https://api.openai.com/v1/chat/completions";
-        String apiKey = "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"; // API key goes here
+        String apiKey = "API KEY"
         String model = "gpt-3.5-turbo"; // current model of chatgpt api
 
         try {
